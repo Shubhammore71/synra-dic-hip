@@ -1,0 +1,36 @@
+# Compiled binaries
+dic_dmd
+dic_hip_fusion
+dic_spectral
+hip_benchmark
+hyper_dic
+hyper_dic_fusion
+
+# Object files
+*.o
+*.obj
+*.a
+*.so
+
+# CUDA/HIP generated
+*.ptx
+*.cubin
+*.fatbin
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Backup/temp files
+*.save
+*.save.1
+*.save.2
+*.bak
+*.tmp
+
+# Build output
+build/
+out/
